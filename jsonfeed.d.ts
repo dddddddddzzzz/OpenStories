@@ -11,12 +11,8 @@ interface JSONFeed {
   authors?: Author[];
   language?: string;
   expired?: boolean;
-  hubs?: Hub[];
+  hubs?: Array<Hub | WebSubHub>;
   items: FeedItem[];
-}
-
-interface Hub {
-
 }
 
 interface Author {
@@ -26,6 +22,44 @@ interface Author {
 }
 
 interface FeedItem {
+  id: string;
+  url?: string;
+  external_url?: string;
+  title?: string;
+  content_html?: string;
+  content_text?: string;
+  summary?: string;
+  image?: string;
+  banner_image?: string;
+  date_published?: string;
+  date_modified?: string;
+  authors?: Author[];
+  tags?: string[];
+  language?: string[];
+  attachments?: Attachment[];
+}
+
+interface Attachment {
+  url: string;
+  mime_type: string;
+  title?: string;
+  size_in_bytes?: number;
+  duration_in_seconds?: number;
+}
+
+// https://github.com/manton/JSONFeed/issues/136
+interface Hub {
+  type: 'rssCloud' | 'WebSub';
+  url: string;
+}
+
+// https://www.w3.org/TR/websub/#x5-1-subscriber-sends-subscription-request
+interface WebSubHub extends Hub {
+  topic: string;
+  callback: string;
+  mode: 'subscribe' | 'unsubscribe';
+  lease_seconds?: number;
+  secret?: string;
 }
 
 export default JSONFeed
