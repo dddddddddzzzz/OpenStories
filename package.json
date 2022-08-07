@@ -1,7 +1,7 @@
 {
   "name": "webstories-ts-types",
   "version": "0.0.1",
-  "main": "index.d.ts",
+  "main": "dist/index.d.ts",
   "type": "module",
   "repository": "git@github.com:mochokidae/webstories-ts-types.git",
   "author": "Mu-An Chiou <me@muanchiou.com>",
