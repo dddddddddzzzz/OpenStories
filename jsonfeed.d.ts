@@ -28,13 +28,4 @@ interface Author {
 interface FeedItem {
 }
 
-// 
-
-interface WebStoriesFeed extends JSONFeed {
-  _web_story: WebStoryItem
-}
-
-interface WebStoryItem {
-}
-
-export {JSONFeed, WebStoriesFeed}
+export default JSONFeed
