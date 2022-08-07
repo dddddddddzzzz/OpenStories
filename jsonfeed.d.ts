@@ -11,7 +11,7 @@ interface JSONFeed {
   authors?: Author[];
   language?: string;
   expired?: boolean;
-  hubs?: Array<RSSCloud | WebSubHub>;
+  hubs?: (RSSCloud | WebSubHub)[];
   items: FeedItem[];
 }
 
