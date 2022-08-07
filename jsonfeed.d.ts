@@ -11,7 +11,7 @@ interface JSONFeed {
   authors?: Author[];
   language?: string;
   expired?: boolean;
-  hubs?: Array<Hub | WebSubHub>;
+  hubs?: Array<RSSCloud | WebSubHub>;
   items: FeedItem[];
 }
 
@@ -48,13 +48,15 @@ interface Attachment {
 }
 
 // https://github.com/manton/JSONFeed/issues/136
-interface Hub {
-  type: 'rssCloud' | 'WebSub';
+interface RSSCloud {
+  type: 'rssCloud';
   url: string;
 }
 
 // https://www.w3.org/TR/websub/#x5-1-subscriber-sends-subscription-request
-interface WebSubHub extends Hub {
+interface WebSubHub {
+  type: 'WebSub';
+  url: string;
   topic: string;
   callback: string;
   mode: 'subscribe' | 'unsubscribe';
