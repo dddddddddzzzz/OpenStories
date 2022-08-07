@@ -64,4 +64,4 @@ interface WebSubHub {
   secret?: string;
 }
 
-export default JSONFeed
+export default JSONFeed;
