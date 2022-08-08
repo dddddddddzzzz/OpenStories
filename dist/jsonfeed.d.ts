@@ -65,3 +65,4 @@ interface WebSubHub {
 }
 
 export default JSONFeed;
+export {FeedItem, Author};
