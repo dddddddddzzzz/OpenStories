@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "main": "dist/index.d.ts",
   "type": "module",
+  "scripts": {
+    "test": "tsc test/*.ts --noEmit"
+  },
   "repository": "git@github.com:mochokidae/webstories-ts-types.git",
   "author": "Mu-An Chiou <me@muanchiou.com>",
   "license": "MIT",
