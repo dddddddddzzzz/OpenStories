@@ -1,5 +1,5 @@
 interface JSONFeed {
-  version: string;
+  version: SupportedVersions;
   title: string;
   home_page_url?: string;
   feed_url?: string;
@@ -14,6 +14,8 @@ interface JSONFeed {
   hubs?: (RSSCloud | WebSubHub)[];
   items: FeedItem[];
 }
+
+type SupportedVersions = 'https://jsonfeed.org/version/1.1'
 
 interface Author {
   name?: string;

@@ -1,9 +1,9 @@
 import {default as JSONFeed, FeedItem, Author} from './jsonfeed'
 
 interface WebStoriesFeed extends JSONFeed {
-  _web_story: WebStorySetup;
+  _web_story?: WebStorySetup;
   items: WebStoryItem[];
-  authors: WebStoryAuthor[];
+  authors?: WebStoryAuthor[];
 }
 
 interface WebStoryAuthor extends Author {
@@ -12,7 +12,7 @@ interface WebStoryAuthor extends Author {
 }
 
 interface WebStoryItem extends FeedItem {
-  authors: WebStoryAuthor[];
+  authors?: WebStoryAuthor[];
   _web_story: WebStory
 }
 
@@ -21,7 +21,7 @@ interface WebStorySetup {
 }
 
 interface WebStoryAuthorMetadata {
-  response_to?: ResponseProtocol
+  response_endpoints?: ResponseProtocol
 }
 
 interface ResponseProtocol {
@@ -51,7 +51,7 @@ interface Media {
 interface ImageStory extends Media {
   type: 'image';
   alt: string;
-  caption: string;
+  caption?: string;
 }
 
 interface VideoStory extends Media {
