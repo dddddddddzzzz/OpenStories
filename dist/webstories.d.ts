@@ -12,7 +12,7 @@ interface WebStoryAuthor extends Author {
 
 interface WebStoryItem extends FeedItem {
   authors?: WebStoryAuthor[];
-  _web_story: WebStory
+  _web_story: ImageStory | VideoStory;
 }
 
 interface WebStorySetup {
@@ -31,8 +31,9 @@ interface ResponseProtocol {
 }
 
 interface WebStory {
-  story: ImageStory | VideoStory;
-  preview: Preview;
+  url: string;
+  mime_type: string;
+  preview?: Preview;
   reactions?: Reactions;
   senstivity_warning?: string;
 }
@@ -46,18 +47,13 @@ interface Preview {
   color?: string;
 }
 
-interface Media {
-  url: string;
-  mime_type: string;
-}
-
-interface ImageStory extends Media {
+interface ImageStory extends WebStory {
   type: 'image';
   alt: string;
   caption?: string;
 }
 
-interface VideoStory extends Media {
+interface VideoStory extends WebStory {
   type: 'video';
   transcript?: string;
   duration_in_seconds?: number;

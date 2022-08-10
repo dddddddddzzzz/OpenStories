@@ -18,15 +18,11 @@ const validFeed: WebStoriesFeed = {
         }
       }, {name: 'robb'}],
     _web_story: {
-      preview: {
-        color: 'purple'
-      },
-      story: {
-        type: 'image',
-        mime_type: 'image/jpg',
-        url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
-        alt: 'Sky',
-      },
+      type: 'image',
+      mime_type: 'image/jpg',
+      url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
+      alt: 'Sky',
+      preview: { color: 'purple' },
       reactions: {
         open_heart_urls: ['https://httpbin.org/post?id=x']
       }
