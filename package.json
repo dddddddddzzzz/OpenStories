@@ -7,7 +7,7 @@
     "test": "tsc test/*.ts --noEmit"
   },
   "repository": "git@github.com:mochokidae/webstories-ts-types.git",
-  "author": "Mu-An Chiou <me@muanchiou.com>",
+  "author": "Mu-An Chiou <pkg@muan.dev>",
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.7.4"
