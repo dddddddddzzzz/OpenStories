@@ -3,7 +3,6 @@ import {default as JSONFeed, FeedItem, Author} from './jsonfeed'
 interface WebStoriesFeed extends JSONFeed {
   _web_story?: WebStorySetup;
   items: WebStoryItem[];
-  authors?: WebStoryAuthor[];
 }
 
 interface WebStoryAuthor extends Author {
@@ -29,13 +28,17 @@ interface ResponseProtocol {
   email?: string;
   imessage?: string;
   telegram?: string;
-  open_heart_url?: string;
 }
 
 interface WebStory {
   story: ImageStory | VideoStory;
   preview: Preview;
+  reactions?: Reactions;
   senstivity_warning?: string;
+}
+
+interface Reactions {
+  open_heart_urls?: string[];
 }
 
 interface Preview {
