@@ -18,7 +18,7 @@ const validFeed: WebStoriesFeed = {
         }
       }, {name: 'robb'}],
     _web_story: {
-      expire_by: '2099-01-01T00:00:00+08:00',
+      date_expired: '2099-01-01T00:00:00+08:00',
       type: 'image',
       mime_type: 'image/jpg',
       url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
