@@ -37,6 +37,7 @@ interface WebStory {
   preview?: Preview;
   reactions?: Reactions;
   senstivity_warning?: string;
+  duration_in_seconds?: number;
 }
 
 interface Reactions {
@@ -57,7 +58,6 @@ interface ImageStory extends WebStory {
 interface VideoStory extends WebStory {
   type: 'video';
   transcript?: string;
-  duration_in_seconds?: number;
 }
 
 export default WebStoriesFeed;
