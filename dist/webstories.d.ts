@@ -33,7 +33,7 @@ interface ResponseProtocol {
 interface WebStory {
   url: string;
   mime_type: string;
-  date_expired: string;
+  date_expired?: string;
   preview?: Preview;
   reactions?: Reactions;
   senstivity_warning?: string;

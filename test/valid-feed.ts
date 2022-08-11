@@ -6,7 +6,7 @@ const validFeed: WebStoriesFeed = {
   home_page_url: 'https://example.com',
   feed_url: 'https://example.com/feed.json',
   items: [{
-    id: 'ID',
+    id: 'a2',
     content_text: 'Text',
     authors: [
       {
@@ -27,6 +27,16 @@ const validFeed: WebStoriesFeed = {
       reactions: {
         open_heart_urls: ['https://httpbin.org/post?id=x']
       }
+    }
+  },{
+    id: 'a1',
+    content_text: 'Text',
+    authors: [{name: 'robb'}],
+    _web_story: {
+      type: 'image',
+      mime_type: 'image/jpg',
+      url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
+      alt: 'Sky'
     }
   }]
 }
