@@ -1,7 +1,7 @@
 import {default as JSONFeed, FeedItem, Author} from './jsonfeed'
 
 interface WebStoriesFeed extends JSONFeed {
-  _web_story?: WebStorySetup;
+  _web_story: WebStoryMetadata;
   items: WebStoryItem[];
 }
 
@@ -14,8 +14,9 @@ interface WebStoryItem extends FeedItem {
   _web_story: ImageStory | VideoStory;
 }
 
-interface WebStorySetup {
-  preview: Preview;
+interface WebStoryMetadata {
+  preview?: Preview;
+  version: `${number}.${number}.${number}${`-${string}` | ''}`;
 }
 
 interface WebStory {
