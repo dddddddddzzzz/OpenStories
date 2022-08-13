@@ -7,7 +7,6 @@ interface WebStoriesFeed extends JSONFeed {
 
 interface WebStoryAuthor extends Author {
   name: string;
-  _web_story?: WebStoryAuthorMetadata;
 }
 
 interface WebStoryItem extends FeedItem {
@@ -19,20 +18,8 @@ interface WebStorySetup {
   preview: Preview;
 }
 
-interface WebStoryAuthorMetadata {
-  response_endpoints?: ResponseProtocol
-}
-
-interface ResponseProtocol {
-  twitter?: string;
-  email?: string;
-  imessage?: string;
-  telegram?: string;
-}
-
 interface WebStory {
   url: string;
-  mime_type: string;
   date_expired?: string;
   preview?: Preview;
   reactions?: Reactions;
@@ -50,14 +37,14 @@ interface Preview {
 }
 
 interface ImageStory extends WebStory {
-  type: 'image';
+  mime_type: `image/${string}`;
   alt: string;
   caption?: string;
 }
 
 interface VideoStory extends WebStory {
-  type: 'video';
-  transcript?: string;
+  mime_type: `video/${string}`;
+  webvtt?: `WEBVTT\n${string}`;
 }
 
 export default WebStoriesFeed;
