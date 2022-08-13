@@ -1,9 +1,11 @@
 {
   "name": "webstories-ts-types",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/index.d.ts",
   "type": "module",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "tsc test/*.ts --noEmit"
   },
