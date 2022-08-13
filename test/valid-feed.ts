@@ -6,7 +6,7 @@ const validFeed: WebStoriesFeed = {
   home_page_url: 'https://example.com',
   feed_url: 'https://example.com/feed.json',
   _web_story: {
-    version: '0.0.5',
+    version: '0.0.6',
   },
   items: [{
     id: 'a2',

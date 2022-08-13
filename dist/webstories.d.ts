@@ -16,8 +16,10 @@ interface WebStoryItem extends FeedItem {
 
 interface WebStoryMetadata {
   preview?: Preview;
-  version: `${number}.${number}.${number}${`-${string}` | ''}`;
+  version: SupportedVersions;
 }
+
+type SupportedVersions = '0.0.6'
 
 interface WebStory {
   url: string;
