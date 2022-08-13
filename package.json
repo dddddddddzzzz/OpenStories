@@ -3,6 +3,7 @@
   "version": "0.0.4",
   "main": "dist/index.d.ts",
   "type": "module",
+  "files": ["dist"],
   "scripts": {
     "test": "tsc test/*.ts --noEmit"
   },
