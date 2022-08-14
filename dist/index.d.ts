@@ -1,4 +1,4 @@
 import JSONFeed from './jsonfeed'
-import WebStoriesFeed from './webstories'
+import OpenStoriesFeed from './openstories'
 
-export {JSONFeed, WebStoriesFeed};
+export {JSONFeed, OpenStoriesFeed};

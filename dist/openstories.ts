@@ -1,27 +1,27 @@
 import {default as JSONFeed, FeedItem, Author} from './jsonfeed'
 
-interface WebStoriesFeed extends JSONFeed {
-  _web_story: WebStoryMetadata;
-  items: WebStoryItem[];
+interface OpenStoriesFeed extends JSONFeed {
+  _open_stories: OpenStoryMetadata;
+  items: OpenStoryItem[];
 }
 
-interface WebStoryAuthor extends Author {
+interface OpenStoryAuthor extends Author {
   name: string;
 }
 
-interface WebStoryItem extends FeedItem {
-  authors?: WebStoryAuthor[];
-  _web_story: ImageStory | VideoStory;
+interface OpenStoryItem extends FeedItem {
+  authors?: OpenStoryAuthor[];
+  _open_stories: ImageStory | VideoStory;
 }
 
-interface WebStoryMetadata {
+interface OpenStoryMetadata {
   preview?: Preview;
   version: SupportedVersions;
 }
 
 type SupportedVersions = '0.0.6'
 
-interface WebStory {
+interface OpenStory {
   url: string;
   date_expired?: string;
   preview?: Preview;
@@ -39,15 +39,15 @@ interface Preview {
   color?: string;
 }
 
-interface ImageStory extends WebStory {
+interface ImageStory extends OpenStory {
   mime_type: `image/${string}`;
   alt: string;
   caption?: string;
 }
 
-interface VideoStory extends WebStory {
+interface VideoStory extends OpenStory {
   mime_type: `video/${string}`;
   webvtt?: `WEBVTT\n${string}`;
 }
 
-export default WebStoriesFeed;
+export default OpenStoriesFeed;
