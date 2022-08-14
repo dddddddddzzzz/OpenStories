@@ -9,7 +9,7 @@
   "scripts": {
     "test": "tsc test/*.ts --noEmit"
   },
-  "repository": "git@github.com:mochokidae/openstories-types.git",
+  "repository": "git@github.com:mochokidae/OpenStories.git",
   "author": "Mu-An Chiou <pkg@muan.dev>",
   "license": "MIT",
   "devDependencies": {
