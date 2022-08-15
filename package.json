@@ -1,6 +1,6 @@
 {
   "name": "openstories-types",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "dist/index.d.ts",
   "type": "module",
   "files": [
