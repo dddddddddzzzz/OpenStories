@@ -56,7 +56,7 @@ The top level object of the feed matches that of a JSON Feed with the following 
 Metadata that identifies an Open Stories feed
 
 - `preview` (optional, _Preview_): Data that helps clients display a preview of the feed while loading its items.
-- `version`: (required, _String_): The version of the Open Stories used for this feed. Currently, only `0.0.6` is supported.
+- `version`: (required, _String_): The version of the Open Stories used for this feed. Currently, only `0.0.8` is supported.
 
 ### Items
 
