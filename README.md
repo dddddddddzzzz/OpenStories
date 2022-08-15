@@ -6,39 +6,41 @@ Stories are small pieces of media – such as images and video clips – with a 
 
 OpenStories is a superset of [JSON Feed version 1.1](https://www.jsonfeed.org/), that means every valid OpenStories feed is a valid v1.1 JSON Feed.
 
-You can [validate a `OpenStoriesFeed` in the TypeScript Playground](https://www.typescriptlang.org/play?target=99&jsx=0&suppressImplicitAnyIndexErrors=true#code/JYWwDg9gTgLgBAbwPJgKYDsDKNrFQZwDFVUATAXzgDMoIQ4ByCNdfHKPfAWhgE818DALAAoUQGMIreADcAhgBtgpYmQBccFBmy4Cq0nAC8iUXDgAiGaij5gU8xvMALGDDD41Aek8ArfFKoSUgA6aABzTysbO3RPAEZguPMAGlMLGGAYBVQHCwABEABXOXQGfDg2XXwUtPNgSXRc51d3L08wzKdCgCNgyRBPIpLgsHQwmpEzZzpUAH0wOTC5wqgFJpc3D28h9D6IT0qOAmC-e1TJi1ICcQ4wDPtHHSP8YImpzNQQao0AbTSzBD-MwWZRNAAsAE4AOziMEAVm6EK4cLBYIAHFwwd0AGwAJi4VAADKR8QBmQlQ0ndbqE0moOGEwlvYFTUhyGBzMA9JT4JxkJq4wm4-GEjFxOIAFTiYLUcVJajhpIA1KK1IyUnAgVMYItvnAfuYADLAQIa8wAIQgEAA1tVkhYABLAMJOJQumDmAC65xZUwaHPQMFmLhAa0cAB5QGEKlBxIYGBtWt4wE4IDgXjtglcZJ5xKR0FxxB1PKBFmRUEoorxPFwAO5gWYANTCMAA6gowiAnHEAFIAVQASgBFNEwOIgCKQmHwxHI1EYrF4gnEskUqk0ukMwmeLndJTiBhwRQweMAYTkUFI5RKBm6Vtt9oAgvh8J897w4N0PwA5dlyXlyHA5q0LW6D2jecASk4wDlMarjZHAj6wJ+H4ANLsqgQEcGEYT4OBChSNGtadBUMyfveIAXraR7oAYbD1Na1jlFIR4VDgEAKMEcAALIEPgZafj0e4EHAEBRAocgfjAfJwCmaYQPawDoOICiFKQSnRoBvLQPADRRPx9zoEed6FPAqa1nAp5iRgMBQB+EHccACg4EZqGoLw6AiRemF3hwYxwMR0lwHkPgEZe4HoGmfJQKJnmsVAqD9CAGBsoZ1DQJB0GwZkWSYUh8A0HQwVhD47DANawDDAwAB8zIsuYcimamNi5D8CDmOgcjJU03GFFwj5Gae0EQIUZorGGFiJlsgzFLskjmOQ3pahYsy1qg3SzIcvC5AgmoXL66T8DkjilksdW+uYICgHMfBoE0p2oL4aDjD6B0WON6wtNNcnpsEmbZrm+aFsWD1XJW1jVnWDbNm2HZdr2g4jmOE6eFOsIIkiKLopiOL4kSJJcOSlLUrS9KMju3L1Od9XHk056XtetHkTaeGIS+b4KB+X5wL+OoAVhECgRFBhQTBcBwbliHIdz6Eclhzq4fhhEBSR-jJcz1qUVA1EQfR4iMTYsWsZUHFcbxL4Cd0QnZMx4mSXA0mYT9ClwEpKlqRpxvNbpUj6eyMTGSNZmC5Z1mBnZNEGI5zksW5HleQl5F+URJEhWFpARVF1ixZhgEJUlKX+yxVAZaL2XwXlyGFfQeQlWVFXDNTwLmOIch3DETQDXAqAAB7iBW2SBnAlFOXAbK8AAhE3rIYbMvdgMACWkAKQoimKuJSjKcoKsqqrqq9B3mAlcjiIZeqAvtb3mMwGDBqgF5BuNeoGlNbRKIxGazVmqA5gA-Mohg0YzkxvOHGS58armJhuMmTJPTLTMOQZaiDL7ILMHAkQyCJBSH8NkYIBEwgAAp5BKBUEEAAlKIIAA).
+You can validate a `OpenStoriesFeed` with [`openstories-types`](https://npmjs.com/package/openstories-types).
 
 ## Example
 
 A minimal `OpenStoriesFeed` may look like the following; note, specifically the required `_open_stories` object for each `item`.
 
-```js
+```json
 {
-  version: 'https://jsonfeed.org/version/1.1',
-  title: 'Valid feed',
-  home_page_url: 'https://example.com',
-  feed_url: 'https://example.com/feed.json',
-  items: [{
-    id: 'a1',
-    content_text: 'Text',
-    authors: [{name: 'muan'}],
-    _open_stories: {
-      type: 'image',
-      mime_type: 'image/jpg',
-      url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
-      alt: 'Sky'
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Valid feed",
+  "_open_stories": {
+    "version": "0.0.8"
+  },
+  "items": [
+    {
+      "id": "a1",
+      "content_text": "Text",
+      "authors": [{"name": "muan"}],
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://example.com/a1.jpg",
+        "alt": "Sky"
+      }
+    },
+    {
+      "id": "a2",
+      "content_text": "Text 2",
+      "authors": [{"name": "muan"}],
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://example.com/a2.jpg",
+        "alt": "Sky"
+      }
     }
-  }, {
-    id: 'a2',
-    content_text: 'Text 2',
-    authors: [{name: 'muan'}],
-    _open_stories: {
-      type: 'image',
-      mime_type: 'image/jpg',
-      url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
-      alt: 'Sky'
-    }
-  }]
+  ]
 }
 ```
 
