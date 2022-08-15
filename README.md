@@ -6,7 +6,11 @@ Stories are small pieces of media – such as images and video clips – with a 
 
 OpenStories is a superset of [JSON Feed version 1.1](https://www.jsonfeed.org/), that means every valid OpenStories feed is a valid v1.1 JSON Feed.
 
-You can validate a `OpenStoriesFeed` with [`openstories-types`](https://npmjs.com/package/openstories-types).
+You can validate a `OpenStoriesFeed` with its TypeScript definitions in [`openstories-types`](https://npmjs.com/package/openstories-types).
+
+## Clients
+
+- [`<open-stories>`](https://github.com/mochokidae/open-stories-element): A custom element that will display a single `OpenStoriesFeed`'s content.
 
 ## Example
 
