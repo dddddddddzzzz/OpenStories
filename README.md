@@ -1,6 +1,6 @@
 # Open Stories
 
-OpenStories is an syndication format for distributing stories to friends and families.
+Open Stories is a syndication format for distributing stories to friends and families.
 
 Stories are small pieces of media – such as images and video clips – with a 9:16 aspect ratio.
 
@@ -10,7 +10,7 @@ You can [validate a `OpenStoriesFeed` in the TypeScript Playground](https://www.
 
 ## Example
 
-A minimum `OpenStoriesFeed` may look like the following; note, specficially the required `_open_stories` object for each `item`.
+A minimal `OpenStoriesFeed` may look like the following; note, specifically the required `_open_stories` object for each `item`.
 
 ```js
 {
@@ -127,4 +127,4 @@ A _Preview_ is a light-weight representation that allows clients to construct a 
 
 _Reactions_ allow a client to communicate back to the authors of a story.
 
-- `open_heart_urls` (optional, _String_): A Open Hearts URL.
+- `open_heart_urls` (optional, _String_): A [Open Heart](https://openheart.fyi/) URL.
