@@ -10,7 +10,7 @@ You can validate a `OpenStoriesFeed` with its TypeScript definitions in [`openst
 
 ## Clients
 
-- [`<open-stories>`](https://github.com/mochokidae/open-stories-element): A custom element that will display a single `OpenStoriesFeed`'s content.
+- [`<open-stories>`](https://github.com/dddddddddzzzz/open-stories-element): A custom element that will display a single `OpenStoriesFeed`'s content.
 
 ## Example
 
