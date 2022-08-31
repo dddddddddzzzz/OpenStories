@@ -88,13 +88,13 @@ Common fields between Image Stories and Video Stories:
 - `reactions` (optional, [_Reactions_](#reactions)): Data that describes how clients can react to this image.
 - `senstivity_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
-- `mime_type` (required, _String_ beginning with `image/${string}`): the mime-type of the image.
+- `mime_type` (required, _String_ beginning with `image/${string}`): the MIME type of the image.
 - `alt` (required, _String_): The alt text of the image.
 - `caption` (optioal, _String_): The caption of the image.
 
 Fields unique to Image Story:
 
-- `mime_type` (required, _String_ beginning with `image/${string}`): the mime-type of the image.
+- `mime_type` (required, _String_ beginning with `image/${string}`): the MIME type of the image.
 - `alt` (required, _String_): The alt text of the image.
 - `caption` (optioal, _String_): The caption of the image.
 
@@ -108,13 +108,13 @@ Common fields between Image Stories and Video Stories:
 - `reactions` (optional, _Reactions_): Data that describes how clients can react to this video.
 - `senstivity_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
-- `mime_type` (required, _String_ beginning with `video/${string}`): the mime-type of the video.
+- `mime_type` (required, _String_ beginning with `video/${string}`): the MIME type of the video.
 - `alt` (required, _String_): The alt text of the video.
 - `caption` (optioal, _String_): The caption of the video.
 
 Fields unique to Video Story:
 
-- `mime_type` (required, _String_ beginning with `image/`): the mime-type of the video.
+- `mime_type` (required, _String_ beginning with `video/`): the MIME type of the video.
 - `webvtt` (optional, _String_ beginning with `WEBVTT\n`): The VTT of the video.
 
 ### Authors
