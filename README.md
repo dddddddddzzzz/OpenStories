@@ -68,7 +68,7 @@ Metadata that identifies an Open Stories feed
 
 Items represent stories in the feed. Items in an Open Stories feed match Items of a JSON Feed with the following additions:
 
-- `_open_stories` (required, either [_Image Story_](#image-story) or (_Video Story_)[#video-story]): The story this item represents.
+- `_open_stories` (required, either [_Image Story_](#image-story) or [_Video Story_](#video-story)): The story this item represents.
 - `authors`: (optional, an array of [_Open Stories Authors_](#authors): The authors that created this item.
 
 Addtionally, authoring software of Open Stories is encouraged to populate the `content_html` field of the Item with an approximation of the stories contents, e.g. an `<img>` point at the same `url` as the Item's `_open_stories.url`, with an `alt` attribute matching `_open_stories.alt`.
