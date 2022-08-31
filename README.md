@@ -68,13 +68,14 @@ Metadata that identifies an Open Stories feed
 
 Items represent stories in the feed. Items in an Open Stories feed match Items of a JSON Feed with the following additions:
 
-- `_open_stories` (required, either _Image Story_ or _Video Story_): The story this item represents.
-- `authors`: (optional, an array of _Open Stories Authors_): The authors that created this item.
+- `_open_stories` (required, either [_Image Story_](#image-story) or (_Video Story_)[#video-story]): The story this item represents.
+- `authors`: (optional, an array of [_Open Stories Authors_](#authors): The authors that created this item.
 
 Addtionally, authoring software of Open Stories is encouraged to populate the `content_html` field of the Item with an approximation of the stories contents, e.g. an `<img>` point at the same `url` as the Item's `_open_stories.url`, with an `alt` attribute matching `_open_stories.alt`.
 
 ```html
-<!-- TODO: Example -->
+<img src='{{ item._open_stories.url }}' alt='{{ item._open_stories.alt }}'>
+{{ item._open_stories.caption }}
 ```
 
 ### Image Story
@@ -83,8 +84,8 @@ Common fields between Image Stories and Video Stories:
 
 - `url`: (required, _String_): The URL of the image. Expected to be in a 9:16 aspect ratio.
 - `date_expired` (optional, _String_): The date at which the story did or will expire. Clients are encouraged not to display stories after this date.
-- `preview` (optional, _Preview_): Data that helps the client display a preview while this image is loading.
-- `reactions` (optional, _Reactions_): Data that describes how clients can react to this image.
+- `preview` (optional, [_Preview_](#preview)): Data that helps the client display a preview while this image is loading.
+- `reactions` (optional, [_Reactions_](#reactions)): Data that describes how clients can react to this image.
 - `senstivity_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
 - `mime_type` (required, _String_ beginning with `image/${string}`): the mime-type of the image.
@@ -133,4 +134,4 @@ A _Preview_ is a light-weight representation that allows clients to construct a 
 
 _Reactions_ allow a client to communicate back to the authors of a story.
 
-- `open_heart_urls` (optional, _String_): A [Open Heart](https://openheart.fyi/) URL.
+- `open_heart_urls` (optional, _String_): A [Open Heart](https://github.com/dddddddddzzzz/OpenHeart) URL.
