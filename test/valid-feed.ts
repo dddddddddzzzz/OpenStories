@@ -11,7 +11,7 @@ const validFeed: OpenStoriesFeed = {
   items: [{
     id: 'a2',
     content_text: 'Text',
-    authors: [{name: 'muan'}, {name: 'robb'}],
+    authors: [{name: 'muan', url: 'https://muan.co'}, {name: 'robb', url: 'https://robb.is'}],
     _open_stories: {
       date_expired: '2099-01-01T00:00:00+08:00',
       mime_type: 'image/jpg',
@@ -25,8 +25,9 @@ const validFeed: OpenStoriesFeed = {
   },{
     id: 'a1',
     content_text: 'Text',
-    authors: [{name: 'robb'}],
+    authors: [{name: 'robb', url: 'https://robb.is'}],
     _open_stories: {
+      content_warning: 'Apex predator',
       mime_type: 'image/jpg',
       url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
       alt: 'Sky'
