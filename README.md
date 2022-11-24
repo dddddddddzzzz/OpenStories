@@ -122,6 +122,7 @@ Fields unique to Video Story:
 Authors represent people that created the stories in the feed. Authors in an Open Stories feed match Authors of a JSON Feed with the following additions:
 
 - `name` (required, _String_): Unlike in JSON Feed, `name` is a required field in Open Stories feeds.
+- `url` (required, _String_): Unlike in JSON Feed, `url` is a required field in Open Stories. `url` is expected to uniquely identify the author across feeds and items.
 
 ### Preview
 

@@ -7,6 +7,7 @@ interface OpenStoriesFeed extends JSONFeed {
 
 interface OpenStoryAuthor extends Author {
   name: string;
+  url: string;
 }
 
 interface OpenStoryItem extends FeedItem {
