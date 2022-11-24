@@ -6,7 +6,7 @@ const validFeed: OpenStoriesFeed = {
   home_page_url: 'https://example.com',
   feed_url: 'https://example.com/feed.json',
   _open_stories: {
-    version: '0.0.8',
+    version: '0.0.9',
   },
   items: [{
     id: 'a2',

@@ -20,7 +20,7 @@ interface OpenStoryMetadata {
   version: SupportedVersions;
 }
 
-type SupportedVersions = '0.0.8'
+type SupportedVersions = '0.0.9'
 
 interface OpenStory {
   url: string;
