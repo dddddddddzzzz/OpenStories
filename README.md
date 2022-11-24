@@ -88,15 +88,12 @@ Common fields between Image Stories and Video Stories:
 - `reactions` (optional, [_Reactions_](#reactions)): Data that describes how clients can react to this image.
 - `content_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
-- `mime_type` (required, _String_ beginning with `image/${string}`): the MIME type of the image.
 - `alt` (required, _String_): The alt text of the image.
 - `caption` (optional, _String_): The caption of the image.
 
 Fields unique to Image Story:
 
 - `mime_type` (required, _String_ beginning with `image/${string}`): the MIME type of the image.
-- `alt` (required, _String_): The alt text of the image.
-- `caption` (optional, _String_): The caption of the image.
 
 ### Video Story
 
@@ -108,7 +105,6 @@ Common fields between Image Stories and Video Stories:
 - `reactions` (optional, _Reactions_): Data that describes how clients can react to this video.
 - `content_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
-- `mime_type` (required, _String_ beginning with `video/${string}`): the MIME type of the video.
 - `alt` (required, _String_): The alt text of the video.
 - `caption` (optional, _String_): The caption of the video.
 
