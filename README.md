@@ -86,7 +86,7 @@ Common fields between Image Stories and Video Stories:
 - `date_expired` (optional, _String_): The date at which the story did or will expire. Clients are encouraged not to display stories after this date.
 - `preview` (optional, [_Preview_](#preview)): Data that helps the client display a preview while this image is loading.
 - `reactions` (optional, [_Reactions_](#reactions)): Data that describes how clients can react to this image.
-- `senstivity_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
+- `content_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
 - `mime_type` (required, _String_ beginning with `image/${string}`): the MIME type of the image.
 - `alt` (required, _String_): The alt text of the image.
@@ -106,7 +106,7 @@ Common fields between Image Stories and Video Stories:
 - `date_expired` (optional, _String_): The date at which the story did or will expire. Clients are encouraged not to display stories after this date.
 - `preview` (optional, _Preview_): Data that helps the client display a preview while this video is loading.
 - `reactions` (optional, _Reactions_): Data that describes how clients can react to this video.
-- `senstivity_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
+- `content_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
 - `mime_type` (required, _String_ beginning with `video/${string}`): the MIME type of the video.
 - `alt` (required, _String_): The alt text of the video.

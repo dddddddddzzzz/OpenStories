@@ -26,7 +26,7 @@ interface OpenStory {
   date_expired?: string;
   preview?: Preview;
   reactions?: Reactions;
-  senstivity_warning?: string;
+  content_warning?: string;
   duration_in_seconds?: number;
 }
 
