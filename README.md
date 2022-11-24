@@ -21,13 +21,13 @@ A minimal `OpenStoriesFeed` may look like the following; note, specifically the 
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Valid feed",
   "_open_stories": {
-    "version": "0.0.8"
+    "version": "0.0.9"
   },
   "items": [
     {
       "id": "a1",
       "content_text": "Text",
-      "authors": [{"name": "muan"}],
+      "authors": [{"name": "muan", "url": "https://muan.co"}],
       "_open_stories": {
         "mime_type": "image/jpg",
         "url": "https://example.com/a1.jpg",
@@ -37,7 +37,7 @@ A minimal `OpenStoriesFeed` may look like the following; note, specifically the 
     {
       "id": "a2",
       "content_text": "Text 2",
-      "authors": [{"name": "muan"}],
+      "authors": [{"name": "muan", "url": "https://muan.co"}],
       "_open_stories": {
         "mime_type": "image/jpg",
         "url": "https://example.com/a2.jpg",
