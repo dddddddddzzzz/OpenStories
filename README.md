@@ -8,8 +8,6 @@ OpenStories is a superset of [JSON Feed version 1.1](https://www.jsonfeed.org/),
 
 You can validate a `OpenStoriesFeed` with its TypeScript definitions in [`openstories-types`](https://npmjs.com/package/openstories-types).
 
-<open-stories src="./intro.json"></open-stories>
-
 ## Clients
 
 - [`<open-stories>`](https://github.com/dddddddddzzzz/open-stories-element): A custom element that will display a single `OpenStoriesFeed`'s content.
