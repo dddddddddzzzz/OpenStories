@@ -7,6 +7,7 @@ interface OpenStoriesFeed extends JSONFeed {
 
 interface OpenStoryAuthor extends Author {
   name: string;
+  url: string;
 }
 
 interface OpenStoryItem extends FeedItem {
@@ -19,14 +20,14 @@ interface OpenStoryMetadata {
   version: SupportedVersions;
 }
 
-type SupportedVersions = '0.0.8'
+type SupportedVersions = '0.0.9'
 
 interface OpenStory {
   url: string;
   date_expired?: string;
   preview?: Preview;
   reactions?: Reactions;
-  senstivity_warning?: string;
+  content_warning?: string;
   duration_in_seconds?: number;
 }
 
