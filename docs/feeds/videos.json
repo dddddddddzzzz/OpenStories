@@ -1,0 +1,29 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Video (minimum)",
+  "_open_stories": {
+    "version": "0.0.9"
+  },
+  "items": [
+    {
+      "id": "a1",
+      "content_html": "<video src=https://openstories.fyi/feeds/videos/1.mov controls></video>",
+      "date_published": "2022/10/23",
+      "_open_stories": {
+        "mime_type": "image/quicktime",
+        "url": "https://openstories.fyi/feeds/videos/1.mov",
+        "alt": "Sticks of butter left on a balcony on a sunny day captioned with 'soft butter pro tip, 32ºC'."
+      }
+    },
+    {
+      "id": "a2",
+      "content_html": "<video src=https://openstories.fyi/feeds/videos/2.mov controls></video>",
+      "date_published": "2022/11/15",
+      "_open_stories": {
+        "mime_type": "image/quicktime",
+        "url": "https://openstories.fyi/feeds/videos/2.mov",
+        "alt": "Hands break a sesame pretzel in half."
+      }
+    }
+  ]
+}
