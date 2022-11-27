@@ -8,10 +8,10 @@
   "items": [
     {
       "id": "a1",
-      "content_html": "<img src=https://openstories.fyi/feeds/cat-1.jpg alt='Cat with orange back sitting body facing the camera but looking towards the far right side, and a black cat walking away, in front of a fence with plants poking out.'>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/cat-1.jpg alt='Cat with orange back sitting body facing the camera but looking towards the far right side, and a black cat walking away, in front of a fence with plants poking out.'>",
       "_open_stories": {
         "mime_type": "image/jpeg",
-        "url": "https://openstories.fyi/feeds/cat-1.jpg",
+        "url": "https://openstories.fyi/feeds/images/cat-1.jpg",
         "alt": "Cat with orange back sitting body facing the camera but looking towards the far right side, and a black cat walking away, in front of a fence with plants poking out.",
         "date_expired": "2222/12/31",
         "duration_in_seconds": 5,
@@ -20,10 +20,10 @@
     },
     {
       "id": "a2",
-      "content_html": "<img src=https://openstories.fyi/feeds/cat-2.jpeg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/cat-2.jpeg alt=''>",
       "_open_stories": {
         "mime_type": "image/jpeg",
-        "url": "https://openstories.fyi/feeds/cat-2.jpeg",
+        "url": "https://openstories.fyi/feeds/images/cat-2.jpeg",
         "alt": "A black cat hiding behind plants looking straight at the camera.",
         "date_expired": "2222/12/31",
         "duration_in_seconds": 5,
