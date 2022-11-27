@@ -16,6 +16,7 @@
     },
     {
       "id": "a2",
+      "date_published": "2022/11/07",
       "content_html": "<img src=https://openstories.fyi/feeds/images/bear-2.jpg alt=''>",
       "_open_stories": {
         "mime_type": "image/jpg",

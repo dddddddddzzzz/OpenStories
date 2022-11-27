@@ -8,10 +8,11 @@
   "items": [
     {
       "id": "a1",
-      "content_html": "<img src=https://openstories.fyi/feeds/bear-1.jpg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/bear-2.jpg alt=''>",
+      "date_published": "2022/11/07",
       "_open_stories": {
         "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/bear-1.jpg",
+        "url": "https://openstories.fyi/feeds/images/bear-2.jpg",
         "alt": "A teddy bear left on the pavement with one claw raised.",
         "date_expired": "2222/12/31",
         "duration_in_seconds": 1,
@@ -21,10 +22,11 @@
     },
     {
       "id": "a2",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/bear-2.jpg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/bear-1.jpg alt=''>",
+      "date_published": "2022/11/14",
       "_open_stories": {
         "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/bear-2.jpg",
+        "url": "https://openstories.fyi/feeds/images/bear-1.jpg",
         "alt": "A teddy bear left on the curb looking sad.",
         "date_expired": "2222/12/31",
         "duration_in_seconds": 5,
@@ -37,6 +39,7 @@
     {
       "id": "a3",
       "content_html": "<img src=https://openstories.fyi/feeds/images/bear-2.jpg alt=''>",
+      "date_published": "2022/11/27",
       "_open_stories": {
         "mime_type": "image/jpg",
         "url": "https://openstories.fyi/feeds/images/bear-2.jpg",
