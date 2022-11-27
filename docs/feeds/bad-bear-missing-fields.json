@@ -1,13 +1,13 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
-  "title": "Good bear (minimum)",
+  "title": "Bad bear (missing fields)",
+  "authors": [{"name": "dddddddddzzzz", "url": "https://openstories.fyi"}],
   "_open_stories": {
     "version": "0.0.9"
   },
   "items": [
     {
       "id": "a1",
-      "content_html": "<img src=https://openstories.fyi/feeds/bear-1.jpg alt=''>",
       "_open_stories": {
         "mime_type": "image/jpg",
         "url": "https://openstories.fyi/feeds/bear-1.jpg",
@@ -19,8 +19,7 @@
       "content_html": "<img src=https://openstories.fyi/feeds/bear-2.jpg alt=''>",
       "_open_stories": {
         "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/bear-2.jpg",
-        "alt": "A teddy bear left on the curb looking sad."
+        "url": "https://openstories.fyi/feeds/bear-2.jpg"
       }
     }
   ]

@@ -1,0 +1,52 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Good bear (maximum)",
+  "authors": [{"name": "dddddddddzzzz", "url": "https://openstories.fyi"}],
+  "_open_stories": {
+    "version": "0.0.9"
+  },
+  "items": [
+    {
+      "id": "a1",
+      "content_html": "<img src=https://openstories.fyi/feeds/bear-1.jpg alt=''>",
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://openstories.fyi/feeds/bear-1.jpg",
+        "alt": "A teddy bear left on the pavement with one claw raised.",
+        "date_expired": "2222/12/31",
+        "content_warning": "violence",
+        "duration_in_seconds": 1,
+        "caption": "Bear found on streets of London.",
+        "preview": { "blurhash": "|EHV6nWB2yk8$NxujFNGt6pyo0adR*=ss:I[R%of.7kCMdnjx]S2NHs:i_S#M|%1%2ENRis9ai%1Sis.slNHW:WBxZ%2NbogaekBW;ofo0NHS4j?W?WBsloLR+oJofS2s:ozj@s:jaR*Wps.j[RkT0of%2afR*fkoJjZof" }
+      }
+    },
+    {
+      "id": "a2",
+      "content_html": "<img src=https://openstories.fyi/feeds/bear-2.jpg alt=''>",
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://openstories.fyi/feeds/bear-2.jpg",
+        "alt": "A teddy bear left on the curb looking sad.",
+        "date_expired": "2222/12/31",
+        "duration_in_seconds": 5,
+        "caption": "The same bear found on streets of London 5 minutes later.",
+        "reactions": { "open_heart_urls": ["https://api.openheart.fyi"] },
+        "preview": { "blurhash": "|CF5pu?HL4X9S%r=s8RjoJ0LjEIUozslbwbcs:ofK,n$#*R*jER+Rks:WB-po#%2smo#nhs:NHay9aNGMws,NGofR-kCa}t7bcxtofo#nhoJWVj[o#j]t7e.jFoLs-e.a#M_aJM|kCbIogjZofWV$yxZNabHWBR-j[WUof" }
+      }
+    },
+    {
+      "id": "a3",
+      "content_html": "<img src=https://openstories.fyi/feeds/bear-2.jpg alt=''>",
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://openstories.fyi/feeds/bear-2.jpg",
+        "alt": "EXPIRED.",
+        "date_expired": "2000/12/31",
+        "duration_in_seconds": 5,
+        "caption": "EXPIRED.",
+        "reactions": { "open_heart_urls": ["https://api.openheart.fyi"] },
+        "preview": { "blurhash": "|CF5pu?HL4X9S%r=s8RjoJ0LjEIUozslbwbcs:ofK,n$#*R*jER+Rks:WB-po#%2smo#nhs:NHay9aNGMws,NGofR-kCa}t7bcxtofo#nhoJWVj[o#j]t7e.jFoLs-e.a#M_aJM|kCbIogjZofWV$yxZNabHWBR-j[WUof" }
+      }
+    }
+  ]
+}

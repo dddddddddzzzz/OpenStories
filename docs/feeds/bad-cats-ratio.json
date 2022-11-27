@@ -1,0 +1,35 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Bad cats (ratio)",
+  "authors": [{"name": "dddddddddzzzz", "url": "https://openstories.fyi"}],
+  "_open_stories": {
+    "version": "0.0.9"
+  },
+  "items": [
+    {
+      "id": "a1",
+      "content_html": "<img src=https://openstories.fyi/feeds/cat-1.jpg alt='Cat with orange back sitting body facing the camera but looking towards the far right side, and a black cat walking away, in front of a fence with plants poking out.'>",
+      "_open_stories": {
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/cat-1.jpg",
+        "alt": "Cat with orange back sitting body facing the camera but looking towards the far right side, and a black cat walking away, in front of a fence with plants poking out.",
+        "date_expired": "2222/12/31",
+        "duration_in_seconds": 5,
+        "caption": "Favorite photo of the year maybe."
+      }
+    },
+    {
+      "id": "a2",
+      "content_html": "<img src=https://openstories.fyi/feeds/cat-2.jpeg alt=''>",
+      "_open_stories": {
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/cat-2.jpeg",
+        "alt": "A black cat hiding behind plants looking straight at the camera.",
+        "date_expired": "2222/12/31",
+        "duration_in_seconds": 5,
+        "caption": "♥︎ curious & skittish.",
+        "reactions": { "open_heart_urls": ["https://api.openheart.fyi"] }
+      }
+    }
+  ]
+}
