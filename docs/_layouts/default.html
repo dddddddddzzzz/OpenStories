@@ -10,10 +10,29 @@
   <title>OpenStories</title>
   <link href="https://unpkg.com/muan.css@latest" rel="stylesheet">
   <script src="https://unpkg.com/open-stories-element@latest" type="module" defer></script>
+  <style>
+    /* https://github.com/muan/muan.css/blob/ef4833957c79a01a76f6e46003683613e76aa18d/index.css#L77-L84 */
+    open-stories:not(:defined),
+    open-stories::part(button) {
+      color: var(--textColor);
+      font-family: ui-monospace, "SFMono-Regular", "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;  
+      padding: 0.2em 1em;
+      background: var(--subtleBackgroundColor);
+      border: 0;
+      cursor: pointer;
+      border-radius: 2px;
+    }
+  </style>
 </head>
 <body class="code">
+  <header>
+    <h1>openstories.fyi</h1>
+  </header>
   <main>
     {{ content }}
   </main>
+  <footer>
+    <a href="https://github.com/dddddddddzzzz/OpenStories">Spec on GitHub</a>
+  </footer>
 </body>
 </html>

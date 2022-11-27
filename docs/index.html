@@ -2,16 +2,29 @@
 layout: default
 ---
 
-<h1>openstories.fyi</h1>
+<p>Here are some example OpenStory feeds.</p>
 
-<h2>Good bears w/ minimum metadata</h2>
-<open-stories src="./feeds/good-bear-min.json"></open-stories>
-<a href="./feeds/good-bear-min.json">Feed</a>
+<h2>Valid feeds</h2>
 
-<h2>Good bears w/ maximum metadata</h2>
-<open-stories src="./feeds/good-bear-max.json"></open-stories>
-<a href="./feeds/good-bear-max.json">Feed</a>
+<ul aria-label="Invalid feeds">
+  <li>
+    <a href="./feeds/good-bear-min.json">Feed with minimum metadata</a>
+    <open-stories src="./feeds/good-bear-min.json"></open-stories>
+  </li>
 
+  <li>
+    <a href="./feeds/good-bear-max.json">Good bears with all metadata</a>
+    <open-stories src="./feeds/good-bear-max.json"></open-stories>
+  </li>
 
+  <li>
+    <a href="./feeds/videos.json">Feed with video stories</a>
+  </li>
+</ul>
 
+<h2>Invalid feeds</h2>
 
+<ul aria-label="Invalid feeds">
+  <li><a href="./feeds/bad-bear-missing-fields.json">Feed missing required fields</a></li>
+  <li><a href="./feeds/bad-cats-ratio.json">Feed with incorrect media ratio</a></li>
+</ul>
