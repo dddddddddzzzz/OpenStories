@@ -16,7 +16,7 @@ const validFeed: OpenStoriesFeed = {
       date_expired: '2099-01-01T00:00:00+08:00',
       mime_type: 'image/jpg',
       url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
-      alt: 'Sky',
+      alt: 'A crocodile in stuffed animal form sitting on a scooter.',
       preview: { color: 'purple' },
       reactions: {
         open_heart_urls: ['https://httpbin.org/post?id=x']
@@ -30,7 +30,7 @@ const validFeed: OpenStoriesFeed = {
       content_warning: 'Apex predator',
       mime_type: 'image/jpg',
       url: 'https://photos.muan.dev/cdn-cgi/imagedelivery/-wp_VgtWlgmh1JURQ8t1mg/9324c569-55a2-4f28-4c0e-dbf5ad04d000/public',
-      alt: 'Sky'
+      alt: 'A crocodile in stuffed animal form sitting on a scooter.',
     }
   }]
 }
