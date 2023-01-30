@@ -4,7 +4,7 @@ Open Stories is a syndication format for distributing stories to friends and fam
 
 Stories are small pieces of media – such as images and video clips – with a 9:16 aspect ratio.
 
-OpenStories is a superset of [JSON Feed version 1.1](https://www.jsonfeed.org/), that means every valid OpenStories feed is a valid v1.1 JSON Feed.
+An OpenStories feed is essentially a [JSON Feed Version 1.1](https://www.jsonfeed.org/version/1.1/) with [extensions](https://www.jsonfeed.org/version/1.1/#extensions-a-name-extensions-a).
 
 You can validate a `OpenStoriesFeed` with its TypeScript definitions in [`openstories-types`](https://npmjs.com/package/openstories-types).
 
