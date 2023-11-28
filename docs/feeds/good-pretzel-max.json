@@ -1,0 +1,56 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "Good pretzel (maximum)",
+  "feed_url": "https://openstories.fyi/feeds/good-pretzel-max.json",
+  "authors": [{"name": "dddddddddzzzz", "url": "https://openstories.fyi"}],
+  "_open_stories": {
+    "version": "0.0.9"
+  },
+  "items": [
+    {
+      "id": "a2",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jpg alt=''>",
+      "date_published": "2022-11-14T00:00:00+08:00",
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-2.jpg",
+        "alt": "A pretzel.",
+        "date_expired": "2222-12-31T00:00:00+08:00",
+        "duration_in_seconds": 5,
+        "content_warning": "Graphic image of deliciousness.",
+        "caption": "Another pretzel.",
+        "reactions": { "open_heart_urls": ["https://api.openheart.fyi"] },
+        "preview": { "blurhash": "|5G[1i4T0zrXt-r=cE$ixD9ax]IoXSf,WBV[bIR%3XMx#+X9iIbvrXS#NHZ2-V-;wInhWqozaKoz8wTKxuIpOYV@JUnit79^MxxBShOs%2wco#jY~B%1KP%2niR*w^M|RP_3W;4oRjv}IUOYsTof9^M{Z~X9%Mxun$tROr" }
+      }
+    },
+    {
+      "id": "a1",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-1.jpg alt=''>",
+      "date_published": "2022-11-07T00:00:00+08:00",
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-1.jpg",
+        "alt": "A pretzel.",
+        "date_expired": "2222-12-31T00:00:00+08:00",
+        "duration_in_seconds": 1,
+        "caption": "A pretzel.",
+        "preview": { "blurhash": "|AF|}BRk8|s8S~ozNxR+RkyqNIIVs8xFxas.ocbG0h-nE*I=baWCo0WBj[03o{^%NLoyIpR,S5j[02EM~As:RPs9nis:oL,oM|%L%LRQs,R+smaf^%#TE2tPNdNwt7j[xY~UxaMewbOFRRbHNbR+kDb^EME2%1t7s.s.WD" }
+      }
+    },
+    {
+      "id": "a3",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-3.jpg alt=''>",
+      "date_published": "2022-11-27T00:00:00+08:00",
+      "_open_stories": {
+        "mime_type": "image/jpg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-3.jpg",
+        "alt": "EXPIRED.",
+        "date_expired": "2000-11-07T00:00:00+08:00",
+        "duration_in_seconds": 5,
+        "caption": "EXPIRED.",
+        "reactions": { "open_heart_urls": ["https://api.openheart.fyi"] },
+        "preview": { "blurhash": "|7GIQ14TIVt6xuMytSenbcKOJAI?bIWVkCf5ofof*0%1-UxZVsxuR5X8RP8{RPn}IpM{NGkXWBbbIUtlRPaftRs.xuoJtR-QaJR.t7tlafMxWVRPRiNHOZnhi_WBt7t6jEyDt6nhs:VYbbozRjkWIVn$xYNbX9j]M{a|oz" }
+      }
+    }
+  ]
+}
