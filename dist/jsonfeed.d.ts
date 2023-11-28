@@ -2,7 +2,7 @@ interface JSONFeed {
   version: SupportedVersions;
   title: string;
   home_page_url?: string;
-  feed_url?: string;
+  feed_url: string;
   description?: string;
   user_comment?: string;
   next_url?: string;
