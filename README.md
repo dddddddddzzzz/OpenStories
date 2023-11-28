@@ -56,6 +56,7 @@ The top level object of the feed matches that of a JSON Feed with the following 
 
 - `_open_stories` (required, _Open Stories Metadata_): The _Open Stories Metadata_ of this feed.
 - `items`: (required, an array of _Open Stories Items_): The items of the feed.
+- `feed_url`: (required, string): Unlike in JSON Feed, `feed_url` is a required field in Open Stories feeds.
 
 ### Open Stories Metadata
 
