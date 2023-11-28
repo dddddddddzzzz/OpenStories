@@ -10,18 +10,18 @@
     {
       "id": "a1",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-1.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-1.jpeg",
         "alt": "A teddy pretzel left on the pavement with one claw raised."
       }
     },
     {
       "id": "a2",
       "date_published": "2022-11-07T00:00:00+08:00",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jpg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jpeg alt=''>",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-2.jpg"
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-2.jpeg"
       }
     }
   ]

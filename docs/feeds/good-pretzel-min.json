@@ -8,20 +8,20 @@
   "items": [
     {
       "id": "a1",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-1.jpg alt='A pretzel'>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-1.jpeg alt='A pretzel'>",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-1.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-1.jpeg",
         "alt": "A pretzel."
       }
     },
     {
       "id": "a2",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jpg alt='A pretzel'>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jpeg alt='A pretzel'>",
       "date_published": "2022-11-07T00:00:00+08:00",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-2.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-2.jpeg",
         "alt": "A pretzel."
       }
     }

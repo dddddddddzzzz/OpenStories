@@ -9,11 +9,11 @@
   "items": [
     {
       "id": "a2",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jpg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-2.jepg alt=''>",
       "date_published": "2022-11-14T00:00:00+08:00",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-2.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-2.jepg",
         "alt": "A pretzel.",
         "date_expired": "2222-12-31T00:00:00+08:00",
         "duration_in_seconds": 5,
@@ -25,11 +25,11 @@
     },
     {
       "id": "a1",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-1.jpg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-1.jepg alt=''>",
       "date_published": "2022-11-07T00:00:00+08:00",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-1.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-1.jepg",
         "alt": "A pretzel.",
         "date_expired": "2222-12-31T00:00:00+08:00",
         "duration_in_seconds": 1,
@@ -39,11 +39,11 @@
     },
     {
       "id": "a3",
-      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-3.jpg alt=''>",
+      "content_html": "<img src=https://openstories.fyi/feeds/images/pretzel-3.jepg alt=''>",
       "date_published": "2022-11-27T00:00:00+08:00",
       "_open_stories": {
-        "mime_type": "image/jpg",
-        "url": "https://openstories.fyi/feeds/images/pretzel-3.jpg",
+        "mime_type": "image/jpeg",
+        "url": "https://openstories.fyi/feeds/images/pretzel-3.jepg",
         "alt": "EXPIRED.",
         "date_expired": "2000-11-07T00:00:00+08:00",
         "duration_in_seconds": 5,
