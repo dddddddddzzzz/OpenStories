@@ -79,6 +79,15 @@ Addtionally, authoring software of Open Stories is encouraged to populate the `c
 {{ item._open_stories.caption }}
 ```
 
+or
+
+```html
+<video src='{{ item._open_stories.url }}' aria-describedby='description'>
+  <track src='{{ item._open_stories.tracks[0].url }}' kind='{{ item._open_stories.tracks[0].kind }}'></track>
+</video>
+<div id='description'>{{ item._open_stories.title }}</div>
+```
+
 ### Image Story
 
 Common fields between Image Stories and Video Stories:
