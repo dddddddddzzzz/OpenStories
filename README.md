@@ -111,7 +111,7 @@ Common fields between Image Stories and Video Stories:
 Fields unique to Video Story:
 
 - `mime_type` (required, _String_ beginning with `video/`): the MIME type of the video.
-- `tracks` (optional, an array of [_Tracks_](#tracks)): The [tracks](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement) for the video.
+- `tracks` (optional, an array of [_Tracks_](#tracks)): The subtitle, caption, or chapters track of a video. Modeled after the [`HTMLTrackElement`](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement).
 
 #### Tracks
 
