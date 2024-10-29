@@ -48,7 +48,15 @@ interface ImageStory extends OpenStory {
 
 interface VideoStory extends OpenStory {
   mime_type: `video/${string}`;
-  webvtt?: string;
+  title: string;
+  tracks?: Track[];
+}
+
+interface Track {
+  url: string;
+  srclang?: string;
+  label?: string;
+  kind?: 'captions' | 'subtitles' | 'chapters';
 }
 
 export default OpenStoriesFeed;

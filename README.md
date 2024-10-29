@@ -106,13 +106,19 @@ Common fields between Image Stories and Video Stories:
 - `reactions` (optional, _Reactions_): Data that describes how clients can react to this video.
 - `content_warning` (optional, _String_): If present, clients should display this warning before showing the story to the user.
 - `duration_in_seconds` (optional, _Number_): How long the story should be displayed for. Clients are free to adjust this number.
-- `alt` (required, _String_): The alt text of the video.
-- `caption` (optional, _String_): The caption of the video.
+- `title` (required, _String_): A description of the video.
 
 Fields unique to Video Story:
 
 - `mime_type` (required, _String_ beginning with `video/`): the MIME type of the video.
-- `webvtt` (optional, _String_): The URL of the WEBVTT of the video.
+- `tracks` (optional, an array of [_Tracks_](#tracks)): The [tracks](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTrackElement) for the video.
+
+#### Tracks
+
+- `url` (required, _String_): The URL of a WEBVTT file.
+- `lang` (optional, _String_): A [BCP47 language subtag](https://en.wikipedia.org/wiki/IETF_language_tag#List_of_common_primary_language_subtags) for the track.
+- `kind` (optional, _String_): 'captions' (default), 'subtitles', 'chapters'.
+- `label` (optional, _String_): A user readable label for the track.
 
 ### Authors
 
