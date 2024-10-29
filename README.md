@@ -112,7 +112,7 @@ Common fields between Image Stories and Video Stories:
 Fields unique to Video Story:
 
 - `mime_type` (required, _String_ beginning with `video/`): the MIME type of the video.
-- `webvtt` (optional, _String_ beginning with `WEBVTT\n`): The VTT of the video.
+- `webvtt` (optional, _String_): The URL of the WEBVTT of the video.
 
 ### Authors
 
